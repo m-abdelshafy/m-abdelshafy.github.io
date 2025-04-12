@@ -6,11 +6,11 @@ baseurl: /blog"" # the subpath of your site, e.g. /blog
 url: "https://m-abdelshafy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author info
-author-name: Bob
+author-name: Yasser Abdelshafy
 author-avatar: avatar.png
 
 # Social
-github-username: leabs
+github-username: m-abdelshafy
 twitter-username: shadow_stack
 youtube-username: shadowstack
 linkedin-username: stevenleabo
