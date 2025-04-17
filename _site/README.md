@@ -1,15 +1,25 @@
 # Jekyll Opine Theme
 
-A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://leabs.github.io/jekyll-leabs-theme/) for a live look around.
+![Jekyll Opine theme screenshot](/screenshots/theme.png)
 
-## Installation
+A simple, clean, responsive Jekyll theme for a blog or personal website with built in search, commenting, and more. See the [demo](https://jekyll-opine.vercel.app) for a live look around or check out the [video walkthrough](https://www.youtube.com/watch?v=4NWQb9d2yVg).
 
-1. Fork the repository
+## Requirements
+
+To build and run this site locally, you will need
+
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Bundler](https://bundler.io/)
+- [Jekyll](https://jekyllrb.com/)
+
+## Build and Run Locally
+
+1. Download, clone, or fork the repository
 2. Edit `_config.yml` to personalize your site.
 3. Replace `favicon.ico` with your own.
-4. Replace `assets/img/avatar.png` with your own.
-5. Replace `assets/img/logo.png` with your own.
-6. Replace `assets/img/cover.jpg` with your own.
+4. Replace `assets/images/avatar.png` with your own.
+5. `cd` into your fork's directory and run `bundle install`
+6. Run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`
 
 ## Adding Posts
 
@@ -53,7 +63,3 @@ exclude: true
 ```
 
 The index page is set to `exclude: true` by default as it is hard coded into the navigation.
-
-```
-
-```
