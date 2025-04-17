@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: Learn more about me
+subtitle: Mohammad Y. Abdelshafy
 permalink: /about/
 comments: false
 ---
