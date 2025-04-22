@@ -4,6 +4,7 @@ title: Elements
 subtitle: Some elements you can use
 permalink: /elements/
 comments: false
+exclude: true
 ---
 
 You can use HTML elements in markdown files. Or, make a page with an HTML
