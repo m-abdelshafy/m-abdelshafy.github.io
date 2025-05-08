@@ -3,6 +3,7 @@ layout: post
 title: "Code Block Example"
 date: 2023-01-20 07:35:33 -0500
 comments: true
+published: false
 ---
 
 Add the `number` property of `array1` and `array2` where the `id` matches and declare as `array3` in javascript.

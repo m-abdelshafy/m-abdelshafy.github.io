@@ -17,7 +17,8 @@ exclude: true
     margin-bottom: 0;
     padding: 4px;
   "
-  placeholder="Search posts.."
+  placeholder="Search post
+s.."
 />
 <ul
   id="results-container"
@@ -31,20 +32,6 @@ exclude: true
   "
 ></ul>
 <!-- This loops through the paginated posts -->
-{% assign insights = site['policy-insights'] | sort: 'date' | reverse %}
-{% for insight in insights limit: 6 %}   <!-- show latest 6 -->
-<div class="box">
-  <h2 style="font-size:1.5rem; margin-bottom:1rem">
-    <a href="{{ insight.url | relative_url }}">{{ insight.title }}</a>
-  </h2>
-  <span class="post-meta">{{ insight.date | date: "%B %-d, %Y" }}</span>
-  <div class="content">
-    {{ insight.excerpt | strip_html | truncatewords: 30 }}
-  </div>
-</div>
-<br>
-{% endfor %}
-
 {% for post in paginator.posts %}
 <div class="box">
   <h2 style="font-size: 1.5rem; margin-bottom: 1rem">

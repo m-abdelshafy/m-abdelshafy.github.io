@@ -1,0 +1,23 @@
+---
+layout: default                             
+title:  Policy Insights
+subtitle: "Here we analyze recent trends and glean actionable insights from them"
+permalink: /policy-insights/
+---
+
+{% assign insights = site['policy-insights'] | sort: 'date' | reverse %}
+
+{% for insight in insights %}
+  <div class="box">
+    <h2 style="font-size:1.5rem;margin-bottom:1rem">
+      <a href="{{ insight.url | relative_url }}">{{ insight.title }}</a>
+    </h2>
+
+    <span class="post-meta">
+      {{ insight.date | date: "%B %-d, %Y" }}
+    </span>
+
+    <p>{{ insight.excerpt | strip_html | truncatewords: 30 }}</p>
+  </div>
+  <br>
+{% endfor %}

@@ -3,6 +3,7 @@ layout: post
 title: "Why Static Site Generators still make sense"
 date: 2023-01-21 07:35:33 -0500
 comments: true
+published: false
 ---
 
 In today's fast-paced digital landscape, the need for a website that is fast, secure, and easy to maintain is more important than ever. This is where static site generators come in.

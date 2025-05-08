@@ -4,7 +4,7 @@ title: Elements
 subtitle: Some elements you can use
 permalink: /elements/
 comments: false
-exclude: true
+published: false
 ---
 
 You can use HTML elements in markdown files. Or, make a page with an HTML
@@ -88,3 +88,12 @@ or bulma elements I like:
 <span class="tag">
   Tag label
 </span>
+
+## Features
+
+- Built a static site generator framework that makes fast and efficient websites via [Jekyll](https://jekyllrb.com/)
+- Search built in via [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+- Comment support via [Disqus](https://disqus.com/)
+- Styling with [Bulma](https://bulma.io/)
+- Support with SEO from [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+- RSS support with [jekyll-feed](https://github.com/jekyll/jekyll-feed)

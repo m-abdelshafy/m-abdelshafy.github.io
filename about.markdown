@@ -6,17 +6,10 @@ permalink: /about/
 comments: false
 ---
 
-Welcome to Energy Research Digest. My name is Yasser and I am an engineering doctoral student committed to address the challenges of the climate crisis. With firsthand experience of heatwaves and extreme temperatures on the edge of the Sahara in Egypt, I am dedicated to finding innovative, practical solutions to enable a just transition to sustainable energy.
+Welcome to Energy Research Digest, your trusted source for insightful commentary at the intersection of energy research and policy.
 
-I work at the University of Rochester's [MixingLab](https://hajim.rochester.edu/me/sites/kelley/) on rotating convection with rough boundaries, and I am coadvised by [Jon Cheng](https://www.usna.edu/MechEngDept/faculty/Cheng.php) of the US Naval Academy.
+My name is Yasser, and I am a doctoral student in mechanical enginering at the University of Rochester. My research focuses on rotating convection and geophysical fluid dynamics in the context of Earth's energy systems. I am co-advised by Prof. Douglas Kelley at the [MixingLab](https://hajim.rochester.edu/me/sites/kelley/) and Prof. Jon Cheng from the [US Naval Academy](https://www.usna.edu/MechEngDept/faculty/Cheng.php).
 
-You can [download my CV]({{ '/assets/files/resume_MYA_April25.pdf' | relative_url }})
+Growing up on the edge of the Sahara Desert in Egypt, I experienced firsthand the intensifying negative impacts of heatwaves and extreme climate conditions. These experiences drive my commitment to finding innovative, practical solutions to support a just and sustainable energy transition, particularly focused on energy access and climate resilience in Africa and the Global South.
 
-## Features
-
-- Built a static site generator framework that makes fast and efficient websites via [Jekyll](https://jekyllrb.com/)
-- Search built in via [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-- Comment support via [Disqus](https://disqus.com/)
-- Styling with [Bulma](https://bulma.io/)
-- Support with SEO from [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
-- RSS support with [jekyll-feed](https://github.com/jekyll/jekyll-feed)
+[Download my CV]({{ '/assets/files/resume_MYA_April25.pdf' | relative_url }})

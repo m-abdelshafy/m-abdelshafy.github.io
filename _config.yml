@@ -5,8 +5,29 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://m-abdelshafy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+
+####################################################################
+# Policy-insights collection
+####################################################################
+collections:
+
+  # keep any other collections you have here …
+
+  policy-insights:            # folder name: “_policy-insights/”
+    output:    true           # every file becomes its own page
+    permalink: /policy-insights/:title/
+    sort_by:   date           # newest first in our list below
+
+# (optional) give all articles the same default layout so you
+# don’t repeat “layout: policy-article” in every file
+defaults:
+  - scope:
+      path: "_policy-insights"
+    values:
+      layout: policy-article        # make this file in _layouts/
+
 # Author info
-author-name: Yasser Abdelshafy
+author-name: M. Y. Abdelshafy
 author-avatar: avatar.png
 
 # Connect
